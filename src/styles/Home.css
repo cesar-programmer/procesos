@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* estilos de la pagina principal*/
+
+.main-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* estilos de la tabla de los productos */
+.products {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 48%;
+}
+
+.products h2 {
+  margin-top: 0;
+}
+
+.products table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.products table th,
+section table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.products table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.products table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.products table tr:hover {
+  background-color: #ddd;
+}
+
+.add-to-cart {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.add-to-cart:hover {
+  background-color: #3e8e41;
+}
+
+/* estilos del carrito de compras*/
+.cart {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 48%;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cart table th,
+section table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.cart table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.cart table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cart table tr:hover {
+  background-color: #ddd;
+}
+
+.delete {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.delete:hover {
+  background-color: #3e8e41;
+}
+
+.checkout {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.checkout:hover {
+  background-color: #3e8e41;
+}
